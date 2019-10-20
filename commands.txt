@@ -24,6 +24,14 @@
 10) sort -r test.txt
 11) sort -u test.txt # remove duplicate lines
 
-- tar
+- tar (to archive files, no space saved, a single file is created with all the contents as is)
 
-12) 
+12) tar -cf test.tar test_directory # c = create, f = tar file name
+13) tar -xvf test.tar # x = extract files, v = verbose output
+14) tar -tf test.tar # t = list, this lists the content of tar file
+
+- gzip (to compress files, save space)
+
+15) gzip test # create test.gz
+16) gunzip test.gz # un zips the file
+
