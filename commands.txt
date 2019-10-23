@@ -35,3 +35,23 @@
 15) gzip test # create test.gz
 16) gunzip test.gz # un zips the file
 
+
+- environment variables
+17) printenv # print all the environment variables
+18) printenv PATH # print an environment variable
+19) export VAR="value" # add an environment variable. Variable added in current session only. To persisi it add it in your initialization profiles (.prfile, .bashrc etc)
+20) unset VAR # remove an environment variable
+
+- process
+21) ps -e # list all processes
+22) top # maximum usage processes
+23) htop # same as top but better formatted
+24) command & # start the process in background
+25) kill PID or kill 15 PID # kill a job '15' is the signal number 
+26) kill -9 PID # kill forcefully '9' is the signal number
+
+- shell history
+27) export HISTSIZE=1000 # by default 500 commands are stored. Change it with this environment variable.
+28) !! # repeat the most recent command
+29) !bkcloud # repeat the last command starting with 'bkcloud'
+30) .bash_history or .history # files that store command line history
