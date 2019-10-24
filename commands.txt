@@ -55,3 +55,10 @@
 28) !! # repeat the most recent command
 29) !bkcloud # repeat the last command starting with 'bkcloud'
 30) .bash_history or .history # files that store command line history
+31) !^ # first word from last command
+32) !2 or !number # run 2 or number command from the history. Every command in history has a number
+33) ctrl + r # open reverse search. press again for more search reults
+
+- Networking
+34) ping -c 3 host/ip # send 3 packets to host. Ensures there is connectivity between you and host
+35) tracerout -n google.com # trace the path that network packets take to reach host
